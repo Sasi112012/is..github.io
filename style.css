@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top:80px;
+    color:black;
+}
+ p{
+    font-size: 22px;
+ }
+
+#welcome{
+    background:linear-gradient(blue,white,blue,white);
+
+}
+
+h2{
+    font-size:40px;
+    color:darkblue;
+    font-family: "Dancing Script", cursive;
+}
+
+img{
+   border-radius:50px;
+   
+}
+
+.menu{
+    list-style:none;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:10;
+    cursor:pointer;
+    background:white;
+
+
+}
+
+.link{
+    float:left;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    font-family:fantasy;
+    font-size:22px ;
+}
+
+
+.contact{
+    font-size:40px;
+    color:darkblue;
+    font-family: "Dancing Script", cursive;
+}
+
+.link:hover{
+    font-size:25px;
+    text-decoration:underline;
+}
